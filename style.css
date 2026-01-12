@@ -1,4 +1,4 @@
-/* === Βασικό στυλ για όλες τις σελίδες === */
+
 body {
   background-color: #efe9e9; /* Ανοιχτό μπλε */
   font-family: "Segoe UI", "Helvetica Neue", sans-serif;
@@ -17,7 +17,6 @@ p {
   color: #090101cb;
 }
 
-/* === Hero Section === */
 header {
   background: linear-gradient(to right, #007bff, #0056b3);
   color: white;
@@ -42,7 +41,6 @@ header .btn-primary {
   padding: 12px 30px;
 }
 
-/* === Navbar === */
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -58,16 +56,14 @@ header .btn-primary {
   padding-right: 15px;
 }
 
-/* === Footer === */
 footer {
-  background-color: #0056b3;  /* πιο φωτεινό μπλε */
-  color: #ffffff;             /* έντονο λευκό κείμενο */
+  background-color: #0056b3;  
+  color: #ffffff;             
   font-size: 0.95rem;
   padding: 15px 0;
 }
 
 
-/* === Buttons === */
 .btn-primary:hover {
   background-color: #e0a800;
   color: black;
@@ -77,3 +73,4 @@ footer {
   box-shadow: none;
   outline: none;
 }
+
